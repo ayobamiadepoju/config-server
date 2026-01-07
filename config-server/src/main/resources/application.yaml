@@ -8,6 +8,6 @@ spring:
     config:
       server:
         git:
-          uri: file:///C:/smord-config-repo
+          uri: https://github.com/ayobamiadepoju/smord-config-repo
           default-label: master
           clone-on-start: true
