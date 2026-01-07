@@ -1,14 +1,13 @@
-spring:
-  application:
-    name: config-server
-
 server:
   port: 8888
 
-cloud:
-  config:
-    server:
-      git:
-        uri: file:///C:\smord-config-repo
-        default-label: main
-        clone-on-start: true
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: file:///C:/smord-config-repo
+          default-label: master
+          clone-on-start: true
